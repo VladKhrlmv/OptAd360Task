@@ -4,6 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-autocolors"></script>
 		<title>Task</title>
 	</head>
 	<body>
@@ -12,35 +15,97 @@
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
 				quae debitis reiciendis quidem quisquam quas, recusandae numquam
 				ullam non ipsa voluptate voluptates perspiciatis omnis minima
-				aut dolores dolor fugiat tempora?
+				aut dolores dolor fugiat tempora? Lorem, ipsum dolor sit amet
+				consectetur adipisicing elit. Culpa quae debitis reiciendis
+				quidem quisquam quas, recusandae numquam ullam non ipsa
+				voluptate voluptates perspiciatis omnis minima aut dolores dolor
+				fugiat tempora? Lorem, ipsum dolor sit amet consectetur
+				adipisicing elit. Culpa quae debitis reiciendis quidem quisquam
+				quas, recusandae numquam ullam non ipsa voluptate voluptates
+				perspiciatis omnis minima aut dolores dolor fugiat tempora?
 			</p>
 			<p>
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
 				quae debitis reiciendis quidem quisquam quas, recusandae numquam
 				ullam non ipsa voluptate voluptates perspiciatis omnis minima
-				aut dolores dolor fugiat tempora?
+				aut dolores dolor fugiat tempora? Lorem, ipsum dolor sit amet
+				consectetur adipisicing elit. Culpa quae debitis reiciendis
+				quidem quisquam quas, recusandae numquam ullam non ipsa
+				voluptate voluptates perspiciatis omnis minima aut dolores dolor
+				fugiat tempora? Lorem, ipsum dolor sit amet consectetur
+				adipisicing elit. Culpa quae debitis reiciendis quidem quisquam
+				quas, recusandae numquam ullam non ipsa voluptate voluptates
+				perspiciatis omnis minima aut dolores dolor fugiat tempora?
 			</p>
 		</div>
-		<div class="data-container"></div>
+		<div class="container">
+			<div class="fetched-data-container">
+				<canvas
+					id="ageDistribution"
+					class="hidden"
+					width="400"
+					height="400"
+				></canvas>
+				<div class="table-container">
+					<table class="fetched-data-table hidden">
+						<thead>
+							<tr>
+								<th class="table-label">
+									10 Oldest men in France
+								</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+				<p class="placeholder">
+					There is no fetched data yet. Press the button to fetch the
+					data.
+				</p>
+				<div class="loader hidden"></div>
+			</div>
+			<button class="fetch-data-button">Fetch data</button>
+		</div>
 		<div class="content2">
 			<p>
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
 				quae debitis reiciendis quidem quisquam quas, recusandae numquam
 				ullam non ipsa voluptate voluptates perspiciatis omnis minima
-				aut dolores dolor fugiat tempora?
+				aut dolores dolor fugiat tempora? Lorem, ipsum dolor sit amet
+				consectetur adipisicing elit. Culpa quae debitis reiciendis
+				quidem quisquam quas, recusandae numquam ullam non ipsa
+				voluptate voluptates perspiciatis omnis minima aut dolores dolor
+				fugiat tempora? Lorem, ipsum dolor sit amet consectetur
+				adipisicing elit. Culpa quae debitis reiciendis quidem quisquam
+				quas, recusandae numquam ullam non ipsa voluptate voluptates
+				perspiciatis omnis minima aut dolores dolor fugiat tempora?
 			</p>
 			<p>
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
 				quae debitis reiciendis quidem quisquam quas, recusandae numquam
 				ullam non ipsa voluptate voluptates perspiciatis omnis minima
-				aut dolores dolor fugiat tempora?
+				aut dolores dolor fugiat tempora? Lorem, ipsum dolor sit amet
+				consectetur adipisicing elit. Culpa quae debitis reiciendis
+				quidem quisquam quas, recusandae numquam ullam non ipsa
+				voluptate voluptates perspiciatis omnis minima aut dolores dolor
+				fugiat tempora? Lorem, ipsum dolor sit amet consectetur
+				adipisicing elit. Culpa quae debitis reiciendis quidem quisquam
+				quas, recusandae numquam ullam non ipsa voluptate voluptates
+				perspiciatis omnis minima aut dolores dolor fugiat tempora?
 			</p>
 			<p>
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
 				quae debitis reiciendis quidem quisquam quas, recusandae numquam
 				ullam non ipsa voluptate voluptates perspiciatis omnis minima
-				aut dolores dolor fugiat tempora?
+				aut dolores dolor fugiat tempora? Lorem, ipsum dolor sit amet
+				consectetur adipisicing elit. Culpa quae debitis reiciendis
+				quidem quisquam quas, recusandae numquam ullam non ipsa
+				voluptate voluptates perspiciatis omnis minima aut dolores dolor
+				fugiat tempora? Lorem, ipsum dolor sit amet consectetur
+				adipisicing elit. Culpa quae debitis reiciendis quidem quisquam
+				quas, recusandae numquam ullam non ipsa voluptate voluptates
+				perspiciatis omnis minima aut dolores dolor fugiat tempora?
 			</p>
 		</div>
+		<script type="module" src="index.js"></script>
 	</body>
 </html>
